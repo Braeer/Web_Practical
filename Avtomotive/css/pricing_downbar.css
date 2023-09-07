@@ -1,0 +1,118 @@
+
+@font-face {
+  font-weight: 400; /* Соответствует значению normal */
+  font-family: Montserrat;
+  src: url("../fonts/Montserrat-Medium.ttf");
+}
+@font-face {
+  font-weight: 700; /* Соответствует значению bold */
+  font-family: Montserrat;
+  src: url("../fonts/Montserrat-Bold.ttf");
+}
+
+.container_pricing {
+  background-color: #efefef;
+  padding-top: 55px;
+}
+.pricing {
+  width: 1010px;
+  margin: 0 auto;
+}
+.title__pricing {
+  text-align: center;
+  padding: 0;
+  margin: 0 0 50px 0;
+  font-size: 50px;
+  font-family: Montserrat;
+  color: rgb(19, 14, 39);
+  font-weight: bold;
+}
+.cards__pricing {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.item__pricing {
+  height: 410px;
+  width: 320px;
+  background-color: #fff;
+  margin-bottom: 65px;
+  border-radius: 5px;
+}
+.title_item_pricing {
+  font-size: 22px;
+  font-family: serif;
+  color: rgb(22, 22, 22);
+  text-align: center;
+  margin: 35px 0 30px 0;
+}
+.price_item_pricing {
+    font-size: 60px;
+    font-family: Montserrat;
+    color: rgb(198, 35, 20);
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+}
+.table_item_pricing {
+    font-size: 22px;
+    font-family: serif;
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    color: rgb(22, 22, 22);
+    line-height: 25px;
+    padding-bottom: 10px;
+}
+.botton_item_pricing {
+    font-size: 22px;
+    font-family: Montserrat;
+    color: rgb(255, 255, 255);
+    background-color: #130e27;
+    text-decoration: none;
+    align-items: center;
+    line-height: 1.273;
+    text-align: center;
+    padding: 15px 60px;
+    border-radius: 5px;
+}
+.botton_item_pricing:hover {
+  background-color: rgb(198, 35, 20);
+}
+
+/* ----DOWNBAR---- */
+
+.container__downbar {
+  width: 1200px;
+  margin: 0 auto;
+  height: 190px;
+  background-color: #130e27;
+}
+.downbar {
+  width: 1010px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+}
+.text__downbar {
+  font-size: 20px;
+  padding: 70px 0 0 0;
+  font-family: serif;
+  color: rgb(255, 255, 255);
+  line-height: 1.1;
+  display: flex;
+}
+.text__downbar p {
+  margin: 0;
+  padding: 0 5px 0 0;
+}
+.text__downbar a {
+  margin: 0;
+  color: rgb(198, 35, 20);
+  text-decoration: none;
+}
+.img__downbar {
+  padding: 65px 0 0 0;
+}

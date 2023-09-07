@@ -1,0 +1,98 @@
+@font-face {
+  font-family: Couture;
+  src: url(../fonts/couture-bld.otf);
+}
+/* .container__service {
+} */
+.service {
+  width: 1010px;
+  margin: 0 auto;
+  padding-bottom: 70px;
+}
+.title__service {
+  display: flex;
+  margin-bottom: 100px;
+}
+.p_service_red {
+  font-size: 50px;
+  font-family: Couture;
+  color: rgb(198, 35, 20);
+  font-weight: bold;
+  margin: 45px 10px 0 0;
+  padding: 0;
+}
+.p_service_blue {
+  font-size: 50px;
+  font-family: "Couture";
+  color: #130e27;
+  font-weight: bold;
+  margin: 45px 0 0 10px;
+  padding: 0;
+}
+.cards__service {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  text-align: center;
+}
+.item__service {
+  width: 180px;
+  height: 230px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+/* .logo__service {
+} */
+.text__service {
+  font-size: 20px;
+  font-family: serif;
+  color: rgb(22, 22, 22);
+  /* margin: 10px 0 0 0; */
+}
+
+
+/* ---STORY---- */
+
+.container_story {
+  height: 130px;
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #130e27;
+}
+.story {
+  width: 1010px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* text-align: center; */
+}
+.text__story {
+  font-size: 21px;
+  margin: 25px 0 25px 0;
+  font-family: serif;
+  color: rgb(255, 255, 255);
+  width: 630px;
+  line-height: 26px;
+}
+.botton__story {
+  padding: 20px 0;
+  margin: 30px 0 25px 0;
+  width: 270px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  border-radius: 5px;
+  background-color: rgb(198, 35, 20);
+}
+.botton__story_a {
+  font-family: "Myriad Pro";
+  font-size: 22px;
+  text-align: center;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
